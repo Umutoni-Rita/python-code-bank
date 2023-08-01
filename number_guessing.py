@@ -12,12 +12,11 @@ def number_guessing():
         attempts += 1
 
         if guess == secret_number:
-            print(f"Congratulations! YOu guessed the number in {attempts} attempts")
+            print(f"Congratulations! You guessed the number in {attempts} attempts")
             break
         elif guess < secret_number:
             print("Too low. Try again.")
         else:
             print("Too high. Try again.")
 
-if __name__ == "__main__":
-    number_guessing()
+number_guessing()
